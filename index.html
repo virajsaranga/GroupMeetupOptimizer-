@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🌍 Group Meetup Map</title>
+
+  <!-- Leaflet core CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- Leaflet Geocoder CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+
+  <!-- Your Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>🌍 Group Meetup Map</h2>
+  
+  <div id="controls">
+    <input id="location1" type="text" placeholder="Enter location 1" />
+    <input id="location2" type="text" placeholder="Enter location 2" />
+    <input id="location3" type="text" placeholder="Enter location 3" />
+    <button id="findBtn">Find Meetup</button>
+  </div>
+
+  <div id="map"></div>
+
+  <!-- Leaflet core JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Leaflet Geocoder JS -->
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+  <!-- Firebase (step 5) -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.js"></script>
+
+  <!-- Your main script -->
+  <script src="script.js"></script>
+</body>
+</html>
