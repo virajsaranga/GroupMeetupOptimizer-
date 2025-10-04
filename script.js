@@ -15,13 +15,13 @@ window.markers = [];
 // Firebase Setup
 // ------------------------------
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "API_KEY",
   authDomain: "groupmeetupmap.firebaseapp.com",
   databaseURL: "https://groupmeetupmap-default-rtdb.firebaseio.com",
   projectId: "groupmeetupmap",
   storageBucket: "groupmeetupmap.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  messagingSenderId: "SENDER_ID",
+  appId: "APP_ID"
 };
 
 // Initialize Firebase
@@ -238,7 +238,7 @@ L.Control.geocoder({
 
 
 // ------------------------------
-// Add autocomplete to input fields
+
 // ------------------------------
 function setupAutocomplete(inputId) {
   const input = document.getElementById(inputId);
