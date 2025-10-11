@@ -239,7 +239,6 @@ L.Control.geocoder({
 
 // ------------------------------
 
-// ------------------------------
 function setupAutocomplete(inputId) {
   const input = document.getElementById(inputId);
   new Awesomplete(input, { minChars: 3, maxItems: 5 });
