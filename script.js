@@ -260,7 +260,7 @@ function setupAutocomplete(inputId) {
   });
 }
 
-// Initialize autocomplete for all locations
+// Initialize autocomplete 
 setupAutocomplete("location1");
 setupAutocomplete("location2");
 setupAutocomplete("location3");
