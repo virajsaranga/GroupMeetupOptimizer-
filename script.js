@@ -220,7 +220,7 @@ window.onload = async () => {
 };
 
 
-// Only declare once
+// Only declare 
 let map2 = L.map('map2').setView([20, 0], 2);
 
 // Modern styled tiles (dark mode)
