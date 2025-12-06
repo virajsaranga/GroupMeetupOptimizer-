@@ -236,8 +236,7 @@ L.Control.geocoder({
 }).addTo(map);
 
 
-
-// ------------------------------
++
 
 function setupAutocomplete(inputId) {
   const input = document.getElementById(inputId);
