@@ -207,9 +207,8 @@ document.getElementById('findBtn').addEventListener('click', async () => {
   }
 });
 
-// ------------------------------
+
 // Load saved locations on startup
-// ------------------------------
 window.onload = async () => {
   const savedAddresses = await loadLocationsFromFirebase();
   if (savedAddresses.length > 0) {
