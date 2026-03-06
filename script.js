@@ -148,7 +148,7 @@ document.getElementById('findBtn').addEventListener('click', async () => {
 
   // Save addresses to Firebase
   saveLocationsToFirebase(addresses);
-
+  //remove markers
   // Remove existing markers
   if (window.markers) window.markers.forEach(marker => map.removeLayer(marker));
   window.markers = [];
