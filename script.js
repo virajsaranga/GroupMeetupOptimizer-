@@ -24,7 +24,7 @@ const firebaseConfig = {
   appId: "APP_ID"
 };
 
-// Initialize Firebase
+
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
 
