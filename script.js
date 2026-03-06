@@ -154,6 +154,7 @@ document.getElementById('findBtn').addEventListener('click', async () => {
   window.markers = [];
 
   // Geocode addresses
+  //access
   let coordsList = [];
   for (let addr of addresses) {
     if (addr.trim() !== "") {
